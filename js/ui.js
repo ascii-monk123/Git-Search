@@ -11,17 +11,21 @@ class Ui {
         <img class="img-fluid mb-2" src="${user.avatar_url}">
         <a href="${
           user.html_url
-        }" target="_blank" class="btn btn-warning btn-block mt-3 mb-4">View Profile</a>
+        }" target="_blank" class="btn btn-warning btn-block mt-3 mb-4 buzzUp">View Profile</a>
         </div>
         <div class="col-md-9">
-        <span class="badge badge-primary">Public Repos: ${
+        <span class="badge badge-primary buzzUp">Public Repos: ${
           user.public_repos
         }</span>
-        <span class="badge badge-secondary">Public Gists: ${
+        <span class="badge badge-secondary buzzUp">Public Gists: ${
           user.public_gists
         }</span>
-        <span class="badge badge-success">Followers: ${user.followers}</span>
-        <span class="badge badge-info">Following: ${user.following}</span>
+        <span class="badge badge-success buzzUp">Followers: ${
+          user.followers
+        }</span>
+        <span class="badge badge-info buzzUp">Following: ${
+          user.following
+        }</span>
         <br><br>
         <ul class="list-group main-list">
         <li class="list-group-item">Company: ${
