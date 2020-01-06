@@ -1,0 +1,9 @@
+nav.navbar.navbar-dark,
+footer,
+.card.main-card {
+  background-color: rgb(0, 0, 0, 0.8);
+}
+ul.list-group.main-list > li {
+  background-color: #ed9d2b;
+  color: #fff;
+}
